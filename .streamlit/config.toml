@@ -1,0 +1,7 @@
+[theme]
+# Professional color palette
+primaryColor = "#007BFF"  # A deep, professional blue
+backgroundColor = "#F4F7F9" # Soft gray background
+secondaryBackgroundColor = "#FFFFFF" # White for containers and cards
+textColor = "#333333" # Dark gray for body text
+font = "sans serif"

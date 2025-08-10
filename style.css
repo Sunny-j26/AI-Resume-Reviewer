@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F8F9FA;
+    color: #495057;
+}
+
+/* Main Streamlit container */
+.stApp {
+    padding-top: 2rem;
+}
+
+/* Card-like containers for content */
+.stCard {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.stCard:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+/* Sidebar and its elements */
+.css-1d391kg { /* This is Streamlit's default sidebar class */
+    background-color: #004d99;
+    color: white;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    padding: 2rem 1.5rem;
+}
+
+/* Sidebar headers */
+.css-1d391kg h1, .css-1d391kg h2, .css-1d391kg h3 {
+    color: #FFFFFF;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+/* Main header */
+.title-container {
+    padding: 3rem 0;
+    text-align: center;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.title-container h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #004d99;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.title-container h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #6c757d;
+}
+
+/* Buttons */
+.stButton>button {
+    background-color: #007bff;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    padding: 0.75rem 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes push {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
